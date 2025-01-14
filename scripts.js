@@ -1,6 +1,6 @@
 class WeatherDashboard {
     constructor() {
-        this.API_URL = 'http://localhost:3000';
+        this.API_URL = 'https://weather-backend-txz6.onrender.com';
         this.searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
         
         this.initializeElements();
